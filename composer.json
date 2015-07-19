@@ -1,0 +1,15 @@
+{
+    "name": "waltertamboer/sabredav-module",
+    "description": "A Zend Framework 2 module to work with SabreDav while respecting ZF2's application flow.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5",
+        "zendframework/zendframework": "~2.5",
+        "sabre/dav": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SabreDavModule\\": "src"
+        }
+    }
+}
